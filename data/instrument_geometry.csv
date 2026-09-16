@@ -1,0 +1,7 @@
+instrument,era_start,era_end,tick_size,median_stop,n_trades,note
+NQ1!,2011,2017,0.25,12.75,282,
+NQ1!,2018,2026,0.25,71.25,449,
+NQ1!,2022,2026,0.25,98.875,232,
+NQ1!,2011,2026,0.25,35.75,731,
+NK2251!,2011,2026,5.0,150.0,620,
+ES1!,2011,2026,0.25,,0,not available in source export

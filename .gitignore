@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/
+
+# Never publish these, under any circumstances
+*.pine
+*_sim.py
+pine_parity_check*.py
