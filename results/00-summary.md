@@ -2,7 +2,7 @@
 
 ## In plain words
 
-Thirteen ideas were tested properly. **None of them worked.**
+Twelve ideas were tested properly. **None of them worked.**
 
 Two things came out positive anyway, and both arrived sideways — as by-products of studies whose own
 question came back "no."
@@ -13,11 +13,16 @@ That is the whole campaign in three sentences. The detail follows.
 
 ## The scoreboard
 
-| | studies | confirmed |
+Twelve distinct studies, each counted once by what it proposed:
+
+| by type | studies | confirmed |
 |---|---|---|
-| Primary hypotheses | 4 | **0** |
 | Filters | 8 | **0** |
 | Parameters | 3 | 1 positive, 1 closed, 1 unanswerable |
+| Portfolio addition | 1 | **0** |
+| **total** | **12** | **0** |
+
+Four of the twelve were designated **primary** — the main question of their own study. None passed.
 
 ## The four primaries
 

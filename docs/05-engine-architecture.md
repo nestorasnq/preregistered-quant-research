@@ -77,7 +77,7 @@ by searching data for patterns that would have made money.
 
 This matters for how you read every result here. A strategy mined from historical data comes with a
 story invented to fit it. A strategy built from an observed mechanism can be *wrong*, but it can be
-wrong in ways you can check — which is what thirteen pre-registered studies were for.
+wrong in ways you can check — which is what twelve pre-registered studies were for.
 
 ## Python first, always
 

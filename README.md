@@ -2,7 +2,7 @@
 
 **A multi-instrument backtesting campaign on a systematic intraday strategy, run with the validation discipline of a production system.**
 
-Sixteen years of market data, seven instruments, thirteen pre-registered studies, and a validation protocol that verified every build byte-for-byte against a reference implementation. Every primary hypothesis was rejected, and every filter with them. This repository documents how, and why that is the interesting part.
+Sixteen years of market data, seven instruments, twelve pre-registered studies, and a validation protocol that verified every build byte-for-byte against a reference implementation. Every primary hypothesis was rejected, and every filter with them. This repository documents how, and why that is the interesting part.
 
 The strategy implementation is not published. The methodology, the tooling, the pre-registrations, the results and the trade-level outcome data are.
 
@@ -15,8 +15,8 @@ The strategy implementation is not published. The methodology, the tooling, the 
 | Period covered | August 2011 – August 2026 (14.96 years) |
 | Instruments tested | 7 — index futures from CME, Eurex, Osaka and ICE, plus two retail feeds |
 | Final book | ES1!, NQ1!, NK2251! — **2,030 resolved trades** |
-| Pre-registered studies | **13** — 4 primaries, 8 filters, 3 parameters |
-| Hypotheses confirmed | **0** across all primaries and filters |
+| Pre-registered studies | **12** — 8 filters, 3 parameters, 1 portfolio addition |
+| Hypotheses confirmed | **0**. Four studies were designated primary; none passed |
 | Inference | ISO-week-clustered block bootstrap, 10,000 resamples, 3-year horizon |
 | Build verification | Byte-level reversal match on every build, without exception |
 | Python-to-reference parity | 26 / 86 / 28 cases, exact |
@@ -47,7 +47,7 @@ The DX1! result is the one worth reading in full. It cleared the pre-registered 
 
 A related secondary result failed for a reason worth recording: the measured effect **peaked at five days stale**, which no market mechanism can produce. A random coin-flip subset reproduced the same effect 11.72% of the time. The statistics said "significant." The mechanism said "artifact." The mechanism won.
 
-Eleven closed hypotheses is not a failed campaign. It is the campaign doing what pre-registration exists to do. A strategy that survives twelve honest attempts to break it is a different object from a strategy that was never attacked.
+Twelve closed hypotheses is not a failed campaign. It is the campaign doing what pre-registration exists to do. A strategy that survives twelve honest attempts to break it is a different object from a strategy that was never attacked.
 
 ---
 
@@ -149,7 +149,7 @@ Reported because a research campaign should report its results, not because perf
 **2,030 resolved trades, 2011-08-31 to 2026-08-17, at 0.048 R modelled cost.**
 
 - **15 of 16 years positive.** One losing year: 2017, −8.16 R on a 50.0% win rate
-- +236.6 R total, +15.81 R/yr
+- +236.56 R total, +15.81 R/yr
 - Realised maximum drawdown on the historical path: 19.1 R
 
 At the book's 0.50% risk per trade, block-bootstrapped over a 3-year horizon:
@@ -213,7 +213,7 @@ The source stays private because the research continues. Everything used to test
 ```
 docs/        methodology, validation protocol, inference, slippage, architecture, defect register
 prereg/      one file per hypothesis, threshold and decision rule fixed before collection
-results/     every outcome, including all eleven rejections, with the arithmetic
+results/     every outcome, including all twelve rejections, with the arithmetic
 tooling/     build verification · inference library
 data/        trade-level outcome ledger, 2,030 rows
 reproduce.py regenerates every table in results/ from data/

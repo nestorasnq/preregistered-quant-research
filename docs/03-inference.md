@@ -116,7 +116,7 @@ every study after this one carried it.
 months.** A strategy whose edge varies by market regime will still have intervals that are somewhat
 optimistic.
 
-**Thirteen studies were run.** None was confirmed, so no multiple-comparison correction is
+**Twelve studies were run.** None was confirmed, so no multiple-comparison correction is
 load-bearing in the final result. Had one passed, it would have needed one — which is exactly what
 happened to the study that passed at p = 0.0312, where replication rather than correction is what
 retired it.

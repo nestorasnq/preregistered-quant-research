@@ -12,9 +12,9 @@ So before I looked at any data, I wrote down what I expected to find, and what r
 say "no, this doesn't work." Then I collected the data and checked. I was not allowed to change the
 rules afterwards.
 
-I did that thirteen times. Every single idea failed.
+I did that twelve times. Every single idea failed.
 
-That sounds bad. It is the opposite. It means the process worked — it caught thirteen ideas that
+That sounds bad. It is the opposite. It means the process worked — it caught twelve ideas that
 would have cost me money, including one that looked like a winner right up until I tested it
 somewhere else.
 
@@ -112,7 +112,7 @@ same data.
 
 ## What this methodology does not do
 
-It does not make the strategy work. Thirteen studies produced zero confirmed hypotheses.
+It does not make the strategy work. Twelve studies produced zero confirmed hypotheses.
 
 What it produces is a set of **closed questions** — things that are now known not to help, recorded
 with the evidence, so that neither I nor anyone reading this spends time on them again.

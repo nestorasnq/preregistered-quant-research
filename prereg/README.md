@@ -1,15 +1,27 @@
 # Pre-registration Register
 
-Thirteen studies. One file each. Every one records what was predicted, what was fixed **before**
+Twelve studies. One file each. Every one records what was predicted, what was fixed **before**
 data collection, and what the data returned.
 
 ## The tally
 
-| | studies | confirmed |
+**Twelve distinct studies.** Each is counted once below by *type* — what the hypothesis actually
+proposed. Four of them were additionally designated **primary**, meaning they were the main question
+of their own study rather than a side test, and three of those four appear in the filter and
+parameter rows accordingly.
+
+| by type | studies | confirmed |
 |---|---|---|
-| **Primary hypotheses** | 4 | **0** |
 | **Filters** | 8 | **0** |
 | **Parameters** | 3 | 1 positive, 1 closed, 1 unanswerable |
+| **Portfolio addition** | 1 | **0** |
+| **total** | **12** | **0 hypotheses confirmed** |
+
+| by status | studies | confirmed |
+|---|---|---|
+| Designated primary | 4 | **0** |
+| Secondary | 1 | **0** |
+| Other pre-registered | 7 | **0** |
 
 Two studies produced positive findings. Neither was the finding its own hypothesis predicted.
 
